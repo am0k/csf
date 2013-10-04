@@ -17,9 +17,23 @@ import math                     # makes the math.sqrt function available
 ###
 
 print "Problem 1 solution follows:"
+#  x**2 - 5.86x + 8.5408
+# a= 1   b= -5.86   c= 8.508
+#  (-b +/- sqrt(b**2 - 4*a*c)) / (2*a)
+# x = (--5.86 + (sqrt(-5.86**2 - 4*1*8.5408))) / (2*1)
+# x = (5.86 - math.sqrt(5.86**2)-4) / 2
+#print x
 
-# ... write your code and comments here (and remove this line)
+#print discriminant 
 
+a = 1
+b = -586
+c = 8.5408
+
+discriminant = math.sqrt(b**2) - (4 * a * c)
+
+if discriminant.imag != 0:
+   print " 
 
 ###
 ### Problem 2
