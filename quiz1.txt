@@ -1,0 +1,7 @@
+# Amber
+# hartra06
+
+from lab2.py *
+
+while n > 0:
+    print "Hello world" * n
