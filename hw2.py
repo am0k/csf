@@ -1,5 +1,5 @@
 # Ulises Herrera
-# Evergreen Login: ...
+# heruli08
 # Computer Science Foundations
 # Programming as a Way of Life
 # Homework 2
@@ -9,7 +9,6 @@
 ###
 
 
-# DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 1 solution follows:"
 
 from hw2_test import n
@@ -29,8 +28,7 @@ print a
 ###
 
 
-print # line blank on purpose
-# DO NOT CHANGE THE FOLLOWING LINE
+print # blank line on purpose
 print "Problem 2 solution follows:"
 
 for i in range(2, 11):
@@ -42,8 +40,7 @@ for i in range(2, 11):
 ###
 
 
-print # line blank on purpose
-# DO NOT CHANGE THE FOLLOWING LINE
+print # blank line on purpose
 print "Problem 3 solution follows:"
 
 n = 10
@@ -61,8 +58,7 @@ print "Triangular number", n, "via formula:", n*(n+1)/2
 ###
 
 
-print # line blank on purpose
-# DO NOT CHANGE THE FOLLOWING LINE
+print # blank line on purpose
 print "Problem 4 solution follows:"
 
 n = 10
@@ -80,8 +76,7 @@ print t
 ###
 
 
-print # line blank on purpose
-# DO NOT CHANGE THE FOLLOWING LINE
+print # blank line on purpose
 print "Problem 5 solution follows:"
 
 n = 10
@@ -100,8 +95,7 @@ for i in range(n, 0, -1):
 ###
 
 
-print # line blank on purpose
-# DO NOT CHANGE THE FOLLOWING LINE
+print # blank line on purpose
 print "Problem 6 solution follows:"
 
 n = 10
@@ -122,13 +116,16 @@ print z
 ### Collaboration
 ###
 
-# ... List your collaborators and other sources of help here (websites, books, etc.),
-# ... as a comment (on a line starting with "#").
+# I used http://docs.python.org and http://stackoverflow.com a lot, in addition to help from tutors Alex and Kahea.
 
 ###
 ### Reflection
 ###
 
-# ... Write how long this assignment took you, including doing all the readings
-# ... and tutorials linked to from the homework page. Did the readings, tutorials,
-# ... and lecture contain everything you needed to complete this assignment?
+# The readings took me two hours, and the six problems took me five hours. 
+
+# While the readings and lecture helped me grasp the basic concepts behind the homework, it took a lot of research
+# to come up with code on my own. Even though the tutors helped a lot and the hw2.py files runs and outputs the 
+# correct answers, I don’t completely understand exactly what the computer is doing with all the code. 
+
+# I get the algorithms, but I’m not sure how the computer interprets them. 
