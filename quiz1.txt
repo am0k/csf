@@ -1,7 +1,7 @@
-# Amber
-# hartra06
+# Grader:         Amber
+# Grader's login: hartra06
 
-from lab2.py *
+from lab2.py import n
 
 while n > 0:
-    print "Hello world" * n
+    print "Hello world" 
