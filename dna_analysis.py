@@ -23,8 +23,9 @@ import sys
 
 # You need to specify a file name
 if len(sys.argv) < 2:
-    print "You must supply a file name as an argument when running this program."
-    sys.exit(2)
+	print "You must supply a file name as an argument when running this program."
+	sys.exit(2)
+
 # The file name specified on the command line, as a string.
 filename = sys.argv[1]
 # A file object from which data can be read.
@@ -54,6 +55,8 @@ total_count = 0
 # Number of G and C nucleotides seen so far.
 gc_count = 0
 
+# Number of A and T nucleotides seen so far.
+at_count = 0
 
 # for each base pair in the string,
 for bp in seq:
@@ -65,9 +68,17 @@ for bp in seq:
         # increment the count of gc
         gc_count = gc_count + 1
 
+        # increment the count of at		
+	if bp == 'A' or bp == 'T':
+		at_count = at_count + 1
 
 # divide the gc_count by the total_count
 gc_content = float(gc_count) / total_count
 
+# divide the at_count by the total_count
+at_content = float(at_count) / total_count
+
+
 # Print the answer
 print 'GC-content:', gc_content
+print 'AT-content:', at_content
