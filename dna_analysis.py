@@ -5,8 +5,8 @@
 # Homework 3: DNA analysis (Part 1)
 
 # This program reads DNA sequencer output and computes statistics, such as
-# the GC content.  Run it from the command line like this:
-#   python dna_analysis.py myfile.fastq
+# the GC content. Run it from the command line like this:
+# python dna_analysis.py myfile.fastq
 
 
 ###########################################################################
@@ -23,8 +23,8 @@ import sys
 
 # You need to specify a file name
 if len(sys.argv) < 2:
-	print "You must supply a file name as an argument when running this program."
-	sys.exit(2)
+    print "You must supply a file name as an argument when running this program."
+    sys.exit(2)
 
 # The file name specified on the command line, as a string.
 filename = sys.argv[1]
@@ -62,15 +62,15 @@ at_count = 0
 for bp in seq:
     # increment the total number of bps we've seen
     total_count = total_count + 1
-
+    
     # next, if the bp is a G or a C,
     if bp == 'C' or bp == 'G':
         # increment the count of gc
         gc_count = gc_count + 1
-
-        # increment the count of at		
-	if bp == 'A' or bp == 'T':
-		at_count = at_count + 1
+        
+    # increment the count of at
+    if bp == 'A' or bp == 'T':
+        at_count = at_count + 1
 
 # divide the gc_count by the total_count
 gc_content = float(gc_count) / total_count
