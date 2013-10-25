@@ -6,22 +6,17 @@ def fib(n):
         a = b
         b = a+b
 
+n = 1337
+series = raw_input("Enter 'f' for fibonacci or 's' for sum': ") 
 
-n = 7
-series = "sum"
-
-
-
-if series == "fibonacci":
+if series == "f":
     fib(n)
 
-elif series == "sum":
-    sum(n)
-
-
-
-        
-        
-# print fib(2000)
+elif series == "s":
+    total = sum(range(0, 3*n+1, 3))
+    print total 
+    
+else:
+    print "Invalid string"
 
         
