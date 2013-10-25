@@ -5,13 +5,6 @@ Programming as a Way of Life
 Fall 2013
 Homework 3 
 
-For each problem that requires a written answer, write (or copy-and-paste)
-your answers in this file.  When you are done, you should have replaced all
-the ellipses (the three dots) with your answers.
-
-At the end, you will turn in this file along with your modified
-dna_analysis.py program.
-
 
 Problem 1:
 
@@ -19,11 +12,17 @@ Problem 1:
 
 Problem 2:
 
-...
+GC-content: 0.43029262963
 
 Problem 3:
 
-...
+By commenting out 'seq = ""' and 'linenum = 0', we denied the interpreter 
+a definition (value) for 'linenum', without which the program can't run 
+because it would lack a counter.
+
+Commenting out "gc_count = 0" would do the same thing and render the program
+inoperable. The interpreter can't compute a precise answers with unknown
+variables.
 
 Problem 4:
 
