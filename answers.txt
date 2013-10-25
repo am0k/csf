@@ -3,35 +3,46 @@ heruli08
 Computer Science Foundations
 Programming as a Way of Life
 Fall 2013
-Homework 3 
+Homework 3
 
 
 Problem 1:
 
 (No answers in this file.)
 
+
+
 Problem 2:
 
 GC-content: 0.43029262963
 
+
+
 Problem 3:
 
-By commenting out 'seq = ""' and 'linenum = 0', we denied the interpreter 
-a definition (value) for 'linenum', without which the program can't run 
-because it would lack a counter.
+By commenting out 'seq = ""' and 'linenum = 0', we denied the interpreter a definition (value) for 'linenum', without which the program can't run because it would lack a counter.
 
-Commenting out "gc_count = 0" would do the same thing and render the program
-inoperable. The interpreter can't compute a precise answers with unknown
-variables.
+Commenting out "gc_count = 0" would do the same thing and render the program inoperable. The interpreter can't compute a precise answer with unknown variables.
+
+
+
 
 Problem 4:
 
-...
+GC-content: 0.43029262963
+AT-content: 0.568993851852
+
+
+
 
 Collaboration:
 
-...
+The TA Kahea helped me debug my program for problem 4, I did the rest by myself.
+
 
 Reflection:
 
-...
+I learned not to be so scared/stressed out about the homework. I stayed up until 7am this morning re-reading the assigned readings because I thought my lack of comprehending the text would hinder my ability to finish homework 3. It turns out; this was the easiest homework yet.
+
+I didn’t need more resources for this homework. 
+
