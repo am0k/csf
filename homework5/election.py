@@ -1,5 +1,5 @@
-# Name: ...
-# Evergreen Login: ...
+# Ulises Herrera
+# heruli08
 # Programming as a Way of Life
 # Homework 5: Election prediction
 

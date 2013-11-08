@@ -1,7 +1,7 @@
-Name: ...
-UW NetID: ...
-CSE 140
-Homework 3: Election prediction
+Ulises Herrera
+heruli08
+CSF 2013 Fall
+Homework 5: Election prediction
 
 
 Collaboration:
