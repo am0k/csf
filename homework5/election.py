@@ -35,8 +35,35 @@ def state_edges(election_result_rows):
     The input list does has no duplicate states;
     that is, each state is represented at most once in the input list.
     """
-    #TODO: Implement this function
-    pass
+ #   print election_result_rows
+  #  print 
+   # print election_result_rows[0]
+   # print election_result_rows[0]['Dem']
+
+
+  #  for row in election_result_rows:
+   #     print row
+    #    value = row_to_edge(row)
+     #   print value
+
+#        value = float(row['Dem']) - float(row['Rep'])
+
+
+#        state_dic = election_results_rows[i]
+ #       row_to_edge 
+
+    dic = {}
+    for i in range(len(election_result_rows)):
+        state_dic = election_result_rows[i]
+        state = state_dic['State']
+        edge = row_to_edge(state_dic)
+        tempt_dic = {state:edge}
+        dic = dict( tempt_dic.items() +  dic.items())
+    return dic
+
+
+   # row = election_result_row[0]
+      
 
 
 ################################################################################
@@ -261,3 +288,6 @@ def main():
 # "python election.py" at the command shell), then run the main() function.
 if __name__ == "__main__":
     main()
+
+
+# colaborator: brandom did my homework for me
