@@ -1,5 +1,5 @@
-# Name: ...
-# Evergreen Login: ...
+# Ulises Herrera
+# heruli08
 # Computer Science Foundations
 # Programming as a Way of Life
 # Homework 8
