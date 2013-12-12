@@ -63,7 +63,12 @@ else:
 # DO NOT CHANGE THE FOLLOWING LINE
 #print "Problem 5 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+
+Dictionary = {}
+Dictionary['Tuple key'] = (a, b)
+Dictionary['List key'] = ('a1', 'b1', 'c1')
+Dictionary['Dictionary inside a dictionary'] = {"a" : 1 , "b" : 2 , "c" : 3}
+print Dictionary
 
 ###
 ### Problem 6
@@ -72,11 +77,6 @@ else:
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 6 solution follows:"
 
-Dictionary = {}
-Dictionary['Tuple key'] = (a, b)
-Dictionary['List key'] = ('a1', 'b1', 'c1')
-Dictionary['Dictionary inside a dictionary'] = {"a" : 1 , "b" : 2 , "c" : 3}
-print Dictionary
 
 ###
 ### Problem 7
