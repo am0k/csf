@@ -19,12 +19,18 @@ practice_graph = nx.Graph()
 practice_graph.add_node("A")
 practice_graph.add_node("B")
 practice_graph.add_node("C")
-# TODO: Add more here...
+practice_graph.add_node("D")
+practice_graph.add_node("E")
+practice_graph.add_node("F")
 
 practice_graph.add_edge("A", "B")
 practice_graph.add_edge("A", "C")
 practice_graph.add_edge("B", "C")
-# TODO: Add more here...
+practice_graph.add_edge("B","D")
+practice_graph.add_edge("C","D")
+practice_graph.add_edge("C","F")
+practice_graph.add_edge("D","E")
+practice_graph.add_edge("F","D")
 
 assert len(practice_graph.nodes()) == 6
 assert len(practice_graph.edges()) == 8
@@ -36,7 +42,7 @@ def draw_practice_graph():
 
 # Comment out this line after you have visually verified your practice graph.
 # Otherwise, the picture will pop up every time that you run your program.
-draw_practice_graph()
+#draw_practice_graph()
 
 
 ###
