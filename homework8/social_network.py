@@ -49,10 +49,28 @@ def draw_practice_graph():
 ### Problem 1b
 ###
 
-# (Your code goes here.)
+
+rj = nx.Graph()
+
+Juliet_friends = ["Nurse","Tybalt","Friar Laurence", "Romeo","Capulet"]
+for x in Juliet_friends:
+    rj.add_edge("Juliet", x)
+
+Romeo_friends = ["Friar Laurence","Benvolio","Montague","Mercutio"]
+for x in Romeo_friends:
+    rj.add_edge("Romeo", x)
+    
+Capulet_friends = ["Tybalt", "Escalus", "Paris"]
+for x in Capulet_friends:
+    rj.add_edge("Capulet", x)
+
+rj.add_edge("Escalus","Paris")
+rj.add_edge("Escalus","Mercutio")
+rj.add_edge("Benvolio","Montague")
+rj.add_edge("Montague","Escalus")
 
 assert len(rj.nodes()) == 11
-assert len(rj.edges()) == 17
+assert len(rj.edges()) == 16
 
 def draw_rj():
     """Draw the rj graph to the screen and to a file."""
@@ -63,7 +81,7 @@ def draw_rj():
 # Comment out this line after you have visually verified your rj graph and
 # created your PDF file.
 # Otherwise, the picture will pop up every time that you run your program.
-draw_rj()
+#draw_rj()
 
 
 ###
