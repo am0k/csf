@@ -78,6 +78,11 @@ print Dictionary
 print "Problem 6 solution follows:"
 
 
+# ... write your code and comments here (and remove this line)
+
+print There was no "Problem 6" in the file "https://github.com/robana07/csf/blob/master/hw6%20ours.txt"...
+
+
 ###
 ### Problem 7
 ###Now let's add more bands and singers and include them in the dictionary. 
