@@ -1,0 +1,11 @@
+
+Do the following to get credit:
+
+* Commit the hw6 problems you wrote as hw6-ours.html and the problems you received from the other team as
+  hw6-theirs.html in your github repo.
+* Commit your work from hw8 as social_network.py, even if you didn't finish.
+* Write and submit self-eval and faculty evals for me, Neal, and Sherri online at my.evergreen.edu
+
+Do this by 5pm today (Friday).
+
+Thanks, Paul
